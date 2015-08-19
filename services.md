@@ -3,23 +3,20 @@ layout: page
 title: Our Services
 permalink: /our-services/
 ---
-<h3>Residential Cleaning Services</h3>
-<h4>Windows inside and outside</h4>
-<p>We use water-fed pole systems and pure water on external high windows, and traditional cleaning methods on inside windows.</p>
-<h4>Guttering and Facias</h4>
-<p>As well as window cleaning we can provide gutter washing services, as well as facia boards and panels.</p>
-<h4>Conservatory Roofs</h4>
-<p>Conservatory roofs are difficult to reach so water-fed pole systems are used.</p>
-<h4>Solar Panels</h4>
-<p>Clean Solar panels (Photovoltaic Cells) perform more efficiently than dirty ones.</p>
-<h4>Garage Doors</h4>
-<p>We can wash garage doors at the same time we visit to attend to your windows and or out buildings.</p>
-<h4>Jet / Power Washing</h4>
-<p>Patios, driveways and fencing can be jet-washed at your request.</p>
-
-<h3>Commercial Cleaning Services</h3>
-<h4>Show Rooms</h4>
-
-<h4>High Street Frontages</h4>
-
-<p>[Ashley, please supply some more or edit these, and any extra copy that might help]</p>
+<h3 class="text-center">Residential Cleaning Services</h3>
+<h4><strong>WINDOW CLEANING</strong></h4>
+<p>We can either use water fed pole system using pure water or traditional methods, its up to you! What ever you are happy with. With the pole system we can reach up to 5 or 6 stories externally and can also offer inside window cleaning too.</p>
+<h4><strong>WE ALSO CLEAN</strong></h4>
+<p><strong>Gutterings</strong> in and out, <strong>facias</strong>, <strong>soffits</strong>, <strong>garage doors</strong> and <strong>conservatory roofs</strong>. These may need to be cleaned every 12-18months due to the build up of Algee and moss. We have the equipment and solutions to remove all this and bring it back to new.</p>
+<h4><strong>SOLAR PANELS</strong></h4>
+<p>We offer this service because we have worked with the people who fit solar panels and understand that the slightest bit of dirt build-up affects their efficiency. We recommend a clean twice a year. Please <a href="{{ "solar-panels" | prepend: site.baseurl }}">click this link</a> for a price and to be added to our list.</p>
+<h4><strong>OTHER SERVICES</strong></h4>
+<p>We can also offer <strong>Jet washing</strong>, <strong>graffiti removal</strong> and cleaning of <strong>Cladding</strong>.</p>
+<hr>
+<h3 class="text-center">Commercial Cleaning Services</h3>
+<h4><strong>COMMERCIAL WINDOW CLEANING</strong></h4>
+<p>We offer Window cleaning for <strong>Offices</strong>, <strong>Showrooms</strong>, <strong>Schools</strong>, <strong>Shop fronts</strong> and <strong>factories</strong> etc.<p>
+<p>We can reach high windows up to 5-6 stories and offer inside and out prices at competitive rates.
+<h4><strong>OTHER COMMERCIAL SERVICES</strong></h4>
+<p>We also offer <strong>office cleaning</strong>, <strong>carpet cleaning</strong>, <strong>cladding cleaning</strong> and <strong>jet washing</strong>. Anything we haven't listed <a href="{{ "contact-us" | prepend: site.baseurl }}">please ask</a>.</p>
+<hr>

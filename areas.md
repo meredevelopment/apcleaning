@@ -8,16 +8,14 @@ We work in South Gloucestershire, Bristol and South Wales. Here are some of the 
 <div class="mere-row">
   <div class="mere-col  mere-col-half">
     <div class="call-out">
-      <h3>England</h3>
-      Stoke Gifford, Bradley Stoke, Filton, Thornbury, Berkeley and Almondsbury.<br>
-      [Ashley, more?]
+      <h3>Bristol Area</h3>
+      Bradley Stoke, Little stoke, Stoke Gifford, Filton, Patchway, Almondsbury, Thornbury, Berkeley, Gloucester, Long Ashton, Bedminster, Stoke Bishop, Redland, Emersons Green, Lyde Green and many more areas.
     </div>
   </div>
   <div class="mere-col  mere-col-half">
     <div class="call-out">
-      <h3>Wales</h3>
-      Newport, Swansea, Port Talbot, Bridgend, Pontypridd, Neath and Cardiff.<br>
-      [Ashley, more?]
+      <h3>South Wales</h3>
+      Newport, Bassaleg, Risca, Cwmcarn, Cardiff, Port Talbot, Margam, Bridgend, Neath, Swansea
     </div>
   </div>
 </div>
@@ -27,3 +25,4 @@ If you don't see your location in the lists above, please [get in touch]({{ "con
 <div class="call-out">
 {% include map.html %}
 </div>
+<hr>

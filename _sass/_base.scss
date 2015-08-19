@@ -228,9 +228,10 @@ input, textarea {
 input[type='submit'] {
   background-color: $grey-color-light;
 }
-// input:not([type='submit']), textarea {
-//   width: 99%;
-// }
+
+/**
+ * Other
+ */
 
 hr {
   display: block;
@@ -241,4 +242,8 @@ hr {
   padding: 0;
   width: 100%;
   clear: both;
+}
+
+strong {
+  font-weight: 700;
 }

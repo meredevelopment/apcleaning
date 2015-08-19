@@ -241,6 +241,14 @@
     font-size: 36px;
   }
 }
+.post-title-home {
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    @include media-query($on-palm) {
+      font-size: 22px;
+    }
+}
 .post-content {
   margin-bottom: $spacing-unit;
   .call-to-action {
@@ -311,6 +319,10 @@
   margin-bottom: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
 #map {
   min-height: 400px;
   height: 100%;
@@ -318,13 +330,19 @@
 }
 
 .bordered-image {
-  border: solid 1px $grey-color;
+  padding: $spacing-unit / 2;
+  background-color: $grey-color-light;
+  text-align: center;
+
+  img {
+    border: solid 1px $grey-color;
+  }
 }
 
 .call-out {
   padding: $spacing-unit / 2;
   background-color: $grey-color-light;
-  min-height: 120px;
+  min-height: 180px;
 
   @include media-query($on-laptop) {
     min-height: auto;

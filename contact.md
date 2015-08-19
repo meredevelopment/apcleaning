@@ -13,8 +13,8 @@ permalink: /contact-us/
   </div>
   <div class="mere-col  mere-col-half">
     <form action="//formspree.io/ben@meredevelopment.co.uk" method="POST">  
-      <!-- <input type="hidden" name="_next" value="{{ site.url }}/thanks.html" /> -->
-      <input type="hidden" name="_subject" value="Contact from A P Cleaning Services" />
+      <input type="hidden" name="_next" value="{{ "thanks" | prepend: site.baseurl | prepend: site.url }}" />
+      <input type="hidden" name="_subject" value="Contact Form - A P Cleaning Services" />
       <input type="hidden" name="_cc" value="ben@meredevelopment.co.uk" />
       <input type="text" name="Name" placeholder="Your Name"><br>
       <input type="email" name="_replyto" placeholder="Your Email Address"><br>
@@ -42,3 +42,4 @@ permalink: /contact-us/
     SA12 9YE
   </div>
 </div>
+<hr>
