@@ -9,11 +9,11 @@ permalink: /contact-us/
     <p>Please contact us for a <em>no obligation quote</em><br> using one of these methods:</p>
     <p>Phone: <a href="tel:{{ site.phoneint }}">{{ site.phone }}</a></p>
     <p>Mobile: <a href="tel:{{ site.mobileint }}">{{ site.mobile }}</a></p>
-    <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p>Email: <a href="mailto:ashley@afanforestbiking.co.uk">{{ site.email }}</a></p>
   </div>
   <div class="mere-col  mere-col-half">
-    <form action="//formspree.io/ben@meredevelopment.co.uk" method="POST">  
-      <input type="hidden" name="_next" value="{{ "thanks" | prepend: site.baseurl | prepend: site.url }}" />
+    <form action="//formspree.io/ashley@apcleaning.services" method="POST">  
+      <input type="hidden" name="_next" value="{{ "/thanks" | prepend: site.baseurl | prepend: site.url }}" />
       <input type="hidden" name="_subject" value="Contact Form - A P Cleaning Services" />
       <input type="hidden" name="_cc" value="ben@meredevelopment.co.uk" />
       <input type="text" name="Name" placeholder="Your Name"><br>

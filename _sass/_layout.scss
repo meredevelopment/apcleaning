@@ -237,6 +237,7 @@
   // letter-spacing: -1px;
   line-height: 1;
   text-align: center;
+  font-weight: 400;
   @include media-query($on-laptop) {
     font-size: 36px;
   }

@@ -10,8 +10,8 @@ permalink: /solar-panels/
     <p>Please provide us with your contact details and the number of Solar Panels you have on your home or out-building using this form.</p><p>We will reply with a quote to visit your property and clean them twice a year.</p>
   </div>
   <div class="mere-col  mere-col-half">
-    <form action="//formspree.io/ben@meredevelopment.co.uk" method="POST">  
-      <input type="hidden" name="_next" value="{{ "thanks" | prepend: site.baseurl | prepend: site.url }}" />
+    <form action="//formspree.io/ashley@apcleaning.services" method="POST">  
+      <input type="hidden" name="_next" value="{{ "/thanks" | prepend: site.baseurl | prepend: site.url }}" />
       <input type="hidden" name="_subject" value="Solar Panels - A P Cleaning Services" />
       <input type="hidden" name="_cc" value="ben@meredevelopment.co.uk" />
       <input type="text" name="Name" placeholder="Your Name"><br>

@@ -25,6 +25,6 @@ Information that is gathered from visitors:
 How the Information is used:
 
 Any personal information provided by you will not be sold, rented or leased to 3rd parties.
-If you have any questions about the information provided above, please do not hesitate to contact us using one on the methods provided on our [Contact page]({{ "contact-us" | prepend: site.baseurl }})
+If you have any questions about the information provided above, please do not hesitate to contact us using one on the methods provided on our [Contact page]({{ "/contact-us" | prepend: site.baseurl }})
 
 ---

@@ -20,7 +20,7 @@ We work in South Gloucestershire, Bristol and South Wales. Here are some of the 
   </div>
 </div>
 
-If you don't see your location in the lists above, please [get in touch]({{ "contact-us" | prepend: site.baseurl }}) and we'll let you know if we can provide you with [our services]({{ "our-services" | prepend: site.baseurl }}).
+If you don't see your location in the lists above, please [get in touch]({{ "/contact-us" | prepend: site.baseurl }}) and we'll let you know if we can provide you with [our services]({{ "/our-services" | prepend: site.baseurl }}).
 
 <div class="call-out">
 {% include map.html %}
