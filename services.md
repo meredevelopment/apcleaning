@@ -9,7 +9,7 @@ permalink: /our-services/
 <h4><strong>WE ALSO CLEAN</strong></h4>
 <p><strong>Gutterings</strong> in and out, <strong>facias</strong>, <strong>soffits</strong>, <strong>garage doors</strong> and <strong>conservatory roofs</strong>. These may need to be cleaned every 12-18months due to the build up of Algee and moss. We have the equipment and solutions to remove all this and bring it back to new.</p>
 <h4><strong>SOLAR PANELS</strong></h4>
-<p>We offer this service because we have worked with the people who fit solar panels and understand that the slightest bit of dirt build-up affects their efficiency. We recommend a clean twice a year. Please <a href="{{ "/solar-panels" | prepend: site.baseurl }}">click this link</a> for a price and to be added to our list.</p>
+<p>We offer this service because we have worked with the people who fit solar panels and understand that the slightest bit of dirt build-up affects their efficiency. We recommend a clean twice a year. Please <a href="{{ "/solar-panels" | prepend: site.baseurl }}">fill out our Solar Panel Cleaning form</a> for a price and to be added to our list.</p>
 <h4><strong>OTHER SERVICES</strong></h4>
 <p>We can also offer <strong>Jet washing</strong>, <strong>graffiti removal</strong> and cleaning of <strong>Cladding</strong>.</p>
 <hr>
