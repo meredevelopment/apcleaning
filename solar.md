@@ -2,6 +2,7 @@
 layout: page
 title: Solar Panel Cleaning
 permalink: /solar-panels/
+meta: "We provide Solar Panel cleaning services for your home or out-building, one-off or regularly scheduled. Fill out our form or call 01639 891364 for a quote"
 ---
 
 <div class="mere-row">

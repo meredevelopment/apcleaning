@@ -2,6 +2,7 @@
 layout: page
 title: Our Services
 permalink: /our-services/
+meta: "A.P. Cleaning Services specialise in Commercial & Residential window cleaning services as well as Solar Panel, Office, Carpet, cladding cleaning & Jet Washing"
 ---
 <h3 class="text-center">Residential Cleaning Services</h3>
 <h4><strong>WINDOW CLEANING</strong></h4>

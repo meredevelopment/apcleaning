@@ -2,6 +2,7 @@
 layout: page
 title: Contact Us
 permalink: /contact-us/
+meta: "Call us on 01639 891364 or 07791 250231, or email us via ashley@apcleaning.services for a Commercial or Residential Window Cleaning quote"
 ---
 
 <div class="mere-row">

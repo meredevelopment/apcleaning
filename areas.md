@@ -2,6 +2,7 @@
 layout: page
 title: Areas Covered
 permalink: /areas-covered/
+meta: "Window Cleaning and Commercial cleaning services in South Gloucestershire, Bristol & South Wales. Call 01639 891364 or use our contact form for a quote"
 ---
 We work in South Gloucestershire, Bristol and South Wales. Here are some of the places we currently visit regularly or are happy to expand into.
 
