@@ -11,6 +11,7 @@ meta: "Call us on 01639 891364 or 07791 250231, or email us via ashley@apcleanin
     <p>Phone: <a href="tel:{{ site.phoneint }}">{{ site.phone }}</a></p>
     <p>Mobile: <a href="tel:{{ site.mobileint }}">{{ site.mobile }}</a></p>
     <p>Email: <a href="mailto:ashley@afanforestbiking.co.uk">{{ site.email }}</a></p>
+    <p>Facebook: <a href="https://www.facebook.com/A-P-Cleaning-Services-1684353115148408">A. P. Cleaning Services</a></p>
   </div>
   <div class="mere-col  mere-col-half">
     <form action="//formspree.io/ashley@apcleaning.services" method="POST">  

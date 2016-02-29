@@ -3,20 +3,21 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
-        <h3>Phone: <a href="tel:{{ site.phoneint }}">{{ site.phone }}</a></h3>
+        <h3>Phone: <a href="tel:{{ site.phoneint }}">{{ site.phone }}</a><br>
+        Mobile: <a href="tel:{{ site.mobileint }}">{{ site.mobile }}</a></h3>
       </div>
       <div class="footer-col  footer-col-2">
-        <h3>Mobile: <a href="tel:{{ site.mobileint }}">{{ site.mobile }}</a></h3>
+        <h3>Find us on:<br><a href="https://www.facebook.com/A-P-Cleaning-Services-1684353115148408">Facebook</a></h3>
       </div>
       <div class="footer-col  footer-col-3">
-        <h3><a href="mailto:{{ site.email }}">{{ site.email }}</a></h3>
+        <h3>Email us:<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></h3>
       </div>
     </div>
-    <div class="footer-footing"><small>&copy; A. P. Cleaning Services 2015 - <a href="{{ "/terms" | prepend: site.baseurl }}">Website terms of use</a></small></div>
+    <div class="footer-footing"><small>&copy; A. P. Cleaning Services 2016 - <a href="{{ "/terms" | prepend: site.baseurl }}">Website terms of use</a></small></div>
   </div>
 
 </footer>
-{% if page.url == "/gallery/" %}<script src="{{ "/assets/photoswipe/photoswipe.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/photoswipe/photoswipe.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/photoswipe/photoswipe-ui-default.min.js" | prepend: site.baseurl }}"></script>
 <script>
 var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -198,7 +199,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 // execute above function
 initPhotoSwipeFromDOM('.ap-gallery');
-</script>{% endif %}
+</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
