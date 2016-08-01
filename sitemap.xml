@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://apcleaning.services/</loc>
+  <lastmod>2016-03-08T14:12:54+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://apcleaning.services/our-services/</loc>
+  <lastmod>2016-03-10T10:24:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://apcleaning.services/areas-covered/</loc>
+  <lastmod>2016-02-21T18:45:01+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://apcleaning.services/contact-us/</loc>
+  <lastmod>2016-03-10T10:25:23+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://apcleaning.services/gallery/</loc>
+  <lastmod>2016-03-10T10:27:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://apcleaning.services/terms/</loc>
+  <lastmod>2016-02-21T18:45:01+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>http://apcleaning.services/solar-panels/</loc>
+  <lastmod>2016-02-21T18:43:37+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

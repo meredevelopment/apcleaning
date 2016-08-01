@@ -1,0 +1,44 @@
+<div id="map"></div>
+<script>
+var citymap = {
+  bristol: {
+    center: {lat: 51.554513, lng: -2.5791},
+    size: 19000
+  },
+  porttalbot: {
+    center: {lat: 51.59468, lng: -3.784097},
+    size: 13000
+  },
+  pontypridd: {
+    center: {lat: 51.5550774, lng: -3.382314},
+    size: 18000
+  },
+  newport: {
+    center: {lat: 51.584151, lng: -2.997664},
+    size: 12000
+  }
+};
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 9,
+    center: {lat: 51.466532, lng: -3.188089},
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+  for (var city in citymap) {
+    var cityCircle = new google.maps.Circle({
+      strokeColor: '#2A7AE2',
+      strokeOpacity: 0.5,
+      strokeWeight: 2,
+      fillColor: '#2A7AE2',
+      fillOpacity: 0.3,
+      map: map,
+      center: citymap[city].center,
+      radius: citymap[city].size
+    });
+  }
+}
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>

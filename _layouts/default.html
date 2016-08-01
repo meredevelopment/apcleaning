@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body><a class="skippy" href="#maincontent">Skip to main content</a>
+
+    {% include header.html %}
+
+    <div class="page-content" id="maincontent">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
