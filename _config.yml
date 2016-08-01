@@ -4,8 +4,7 @@ email: ashley@apcleaning.services
 description: > # this means to ignore newlines until "baseurl:"
   A. P. Cleaning Services - Window cleaning, gutter cleaning, conservatories and facias. South Wales and Bristol.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dev.apcleaning.services" # the base hostname & protocol for your site
-#url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "http://apcleaning.services" # the base hostname & protocol for your site
 phone: 01639 891364
 phoneint: +441639891364
 mobile: 07791 250231
