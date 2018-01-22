@@ -12,7 +12,8 @@
   position: relative;
 
   .wrapper, .services-wrapper {
-    background-color: #828282;
+    // background-color: #828282;
+    background-color: #767676;
     // padding-top: 10px;
 
     ul {
@@ -288,9 +289,9 @@
     text-align: center;
   }
   h2 {
-    font-size: 32px;
+    font-size: 28px;
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
   h3 {
