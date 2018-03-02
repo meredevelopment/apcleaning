@@ -2,10 +2,10 @@
  * Site header
  */
 .site-header {
-  border-top: 6px solid $grey-color-dark;
-  border-bottom: 3px solid $grey-color-light;
+  // border-top: 6px solid $grey-color-dark;
+  // border-bottom: 3px solid $grey-color-light;
   // border-bottom: 2px solid $brand-color;
-  background-color: $grey-color-dark;
+  background-color: $grey-color-lightish;
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
@@ -13,7 +13,7 @@
 
   .wrapper, .services-wrapper {
     // background-color: #828282;
-    background-color: #767676;
+    background-color: $dark-background-color;
     // padding-top: 10px;
 
     ul {
@@ -163,14 +163,14 @@
  * Site footer
  */
 .site-footer {
-  border-top: 3px solid $grey-color-light;
+  // border-top: 3px solid $grey-color-light;
   // border-bottom: 1px solid $grey-color-dark;
   // padding: $spacing-unit 0;
-  background-color: $grey-color-dark;
+  background-color: $grey-color-lightish;
 
   .wrapper {
     padding: 30px;
-    background-color: $grey-color;
+    background-color: $dark-background-color;
 
   }
 
@@ -237,7 +237,8 @@
   background-color: $grey-color-light;
 
   .wrapper {
-    background-color: $background-color;
+    background-color: $medium-background-color;
+    color: $light-font-color;
   }
 }
 .page-heading {
@@ -263,12 +264,13 @@
  * Posts
  */
 .post-header {
-  color: $grey-color-dark;
+  color: $light-font-color;
   margin-bottom: $spacing-unit;
-  padding-top: $spacing-unit;
-}
+  padding-top: $spacing-unit;}
 .post-title {
   font-size: 42px;
+  background-color: $brand-orange;
+  padding: 1rem 0;
   // letter-spacing: -1px;
   line-height: 1;
   text-align: center;
@@ -288,6 +290,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
   .call-to-action {
+    background-color: transparent;
     font-size: 32px;
     @include media-query($on-laptop) {
       font-size: 28px;
@@ -296,6 +299,9 @@
   }
   h2 {
     font-size: 28px;
+    text-align: center;
+    background-color: $brand-orange;
+
     @include media-query($on-laptop) {
       font-size: 24px;
     }

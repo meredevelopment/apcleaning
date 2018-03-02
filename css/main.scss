@@ -15,10 +15,16 @@ $spacing-unit:     30px;
 
 $text-color:       #040404;
 $background-color: #fdfdfd;
+$light-background-color: #fff;
+$medium-background-color: #686666;
+$dark-background-color: #444141;
+$light-font-color: #fff;
+$brand-orange: #F35C23;
 $brand-color:      #B60000;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
+$grey-color-lightish: lighten($grey-color, 20%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $blue-color:       #4682B4;
