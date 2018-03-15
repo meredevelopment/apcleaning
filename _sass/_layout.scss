@@ -239,6 +239,7 @@
   .wrapper {
     background-color: $medium-background-color;
     color: $light-font-color;
+    overflow: hidden;
   }
 }
 .page-heading {
@@ -275,8 +276,16 @@
   line-height: 1;
   text-align: center;
   font-weight: 400;
+  margin: 0 -3%;
+
   @include media-query($on-laptop) {
     font-size: 36px;
+    margin: 0 -2%;
+  }
+
+  @include media-query($on-palm) {
+    font-size: 36px;
+    margin: 0 -3%;
   }
 }
 .post-title-home {
