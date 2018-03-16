@@ -394,7 +394,8 @@ h2.not-orange-header {//Makes gallery page less orange
 
 .call-out {
   padding: $spacing-unit / 2;
-  background-color: $grey-color-light;
+  background-color: $light-background-color;
+  color: $text-color;
   min-height: 180px;
 
   @include media-query($on-laptop) {
@@ -408,6 +409,7 @@ h2.not-orange-header {//Makes gallery page less orange
 
 .ap-gallery {
   margin-left: -15px;
+  clear: both;
 }
 .ap-gallery img {
   width: calc(100% - 6px);
@@ -417,7 +419,7 @@ h2.not-orange-header {//Makes gallery page less orange
 .ap-gallery figure {
   width: 25%;
   float: left;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   padding-left: 15px;
   box-sizing: border-box;
 
@@ -429,6 +431,10 @@ h2.not-orange-header {//Makes gallery page less orange
     padding-right: 15px;
     float: right;
   }
+
+  @include media-query($on-laptop) {
+    width: 35%;
+}
 
   @include media-query($on-palm) {
       width: 50%;
