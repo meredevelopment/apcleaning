@@ -80,11 +80,29 @@
     text-align: left;
   }
 }
-.main-logo {
+//Site Logo
+.logo-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  height: 25rem;
+}
+.header-logo {
+  flex: 0 1 auto;
   display: block;
-  margin: 1rem auto;
+  // margin: 1rem auto;
   max-width: 20rem;
-  width: 100%;
+  // width: 100%;
+}
+.main-logo-wrapper {
+  background-color: #F35C23;
+  padding-top: 15rem;
+  transform: rotate(-15deg);
+  margin-top: -15rem;
+}
+.main-logo {
+  // transform: rotate(-15deg);
 }
 .site-nav {
   // float: right;
