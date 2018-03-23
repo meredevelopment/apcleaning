@@ -11,7 +11,8 @@
   // Positioning context for the mobile navigation icon
   position: relative;
 
-  .wrapper, .services-wrapper {
+  .wrapper,
+  .services-wrapper {
     // background-color: #828282;
     background-color: $dark-background-color;
     // padding-top: 10px;
@@ -41,7 +42,6 @@
           color: inherit;
         }
       }
-
     }
 
     object {
@@ -65,7 +65,8 @@
   float: left;
   color: $background-color;
   // &,
-  &:visited, &:hover{
+  &:visited,
+  &:hover {
     color: $background-color;
   }
   @include media-query($on-laptop) {
@@ -83,7 +84,7 @@
 //Site Logo
 .logo-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   overflow: hidden;
   height: 25rem;
@@ -92,18 +93,43 @@
   flex: 0 1 auto;
   display: block;
   // margin: 1rem auto;
-  max-width: 20rem;
+  max-width: 21rem;
   // width: 100%;
 }
 .main-logo-wrapper {
-  background-color: #F35C23;
+  background-color: #f35c23;
   padding-top: 15rem;
   transform: rotate(-15deg);
   margin-top: -15rem;
 }
-.main-logo {
-  // transform: rotate(-15deg);
+.header-contact-div {
+  background-color: #686666;
+  background-image: url("/assets/squeegee.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #fff;
+  padding: 1rem 3rem 1rem 5rem;
+
+  h2 {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
+
 .site-nav {
   // float: right;
   // line-height: 56px;
@@ -189,7 +215,6 @@
   .wrapper {
     padding: 30px;
     background-color: $dark-background-color;
-
   }
 
   a {
@@ -285,7 +310,8 @@
 .post-header {
   color: $light-font-color;
   margin-bottom: $spacing-unit;
-  padding-top: $spacing-unit;}
+  padding-top: $spacing-unit;
+}
 .post-title {
   font-size: 42px;
   background-color: $brand-orange;
@@ -307,12 +333,12 @@
   }
 }
 .post-title-home {
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-    @include media-query($on-palm) {
-      font-size: 22px;
-    }
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  @include media-query($on-palm) {
+    font-size: 22px;
+  }
 }
 .post-content {
   margin-bottom: $spacing-unit;
@@ -391,7 +417,8 @@
 .text-center {
   text-align: center;
 }
-h2.not-orange-header {//Makes gallery page less orange
+h2.not-orange-header {
+  //Makes gallery page less orange
   background-color: transparent;
 }
 #map {
@@ -452,10 +479,10 @@ h2.not-orange-header {//Makes gallery page less orange
 
   @include media-query($on-laptop) {
     width: 35%;
-}
+  }
 
   @include media-query($on-palm) {
-      width: 50%;
+    width: 50%;
   }
 }
 .ap-gallery figcaption {
@@ -463,9 +490,9 @@ h2.not-orange-header {//Makes gallery page less orange
 }
 
 .pswp__caption__center {
-  text-align: center!important;
+  text-align: center !important;
 }
 
 .pswp__bg {
-  background: rgba(0, 0, 0, 0.85)!important;
+  background: rgba(0, 0, 0, 0.85) !important;
 }
