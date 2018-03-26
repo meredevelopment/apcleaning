@@ -32,10 +32,11 @@ $blue-color-light: lighten($blue-color, 40%);
 $blue-color-dark:  darken($blue-color, 25%);
 
 // Width of the content area
-$content-width:    1200px;
-
-$on-palm:          600px;
+$content-width:   1200px;
+$large-laptop:     1024px;
 $on-laptop:        800px;
+$on-palm:          600px;
+$last-stop:         500px;//Just to contain main logo on smaller screens
 
 
 @mixin media-query($device) {

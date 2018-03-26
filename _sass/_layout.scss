@@ -88,19 +88,46 @@
   align-items: center;
   overflow: hidden;
   height: 25rem;
+
+  @include media-query($large-laptop){
+    justify-content: space-between;
+  }
+
+  @include media-query($on-laptop){
+    flex-direction: column;
+    height: auto;
+    // align-items: flex-start;
+  }
 }
 .header-logo {
   flex: 0 1 auto;
   display: block;
-  // margin: 1rem auto;
   max-width: 21rem;
-  // width: 100%;
+  margin: 0 auto;
+
+  @include media-query($last-stop){
+    // max-width: 28rem;
+    width: 100%;
+  }
 }
 .main-logo-wrapper {
   background-color: #f35c23;
   padding-top: 15rem;
   transform: rotate(-15deg);
   margin-top: -15rem;
+
+  @include media-query($large-laptop){
+    margin-left: 28px;
+  }
+  @include media-query($on-laptop){
+    margin: -15rem 52px 5rem 0;
+  }
+
+  @include media-query($last-stop){
+    // max-width: 28rem;
+    width: 75%;
+  }
+
 }
 .header-contact-div {
   background-color: #686666;
@@ -110,6 +137,13 @@
   background-size: contain;
   color: #fff;
   padding: 1rem 3rem 1rem 5rem;
+  text-align: center;
+
+  @include media-query($on-laptop){
+    margin-bottom: 3rem;
+    width: 95%;
+    padding: 1rem;
+  }
 
   h2 {
     font-weight: bold;
