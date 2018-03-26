@@ -344,7 +344,8 @@
 .post-header {
   color: $light-font-color;
   margin-bottom: $spacing-unit;
-  padding-top: $spacing-unit;
+  // padding-top: $spacing-unit;
+  padding-top: 0;
 }
 .post-title {
   font-size: 42px;
