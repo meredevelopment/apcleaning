@@ -2,9 +2,6 @@
  * Site header
  */
 .site-header {
-  // border-top: 6px solid $grey-color-dark;
-  // border-bottom: 3px solid $grey-color-light;
-  // border-bottom: 2px solid $brand-color;
   background-color: $grey-color-lightish;
   min-height: 56px;
 
@@ -13,15 +10,11 @@
 
   .wrapper,
   .services-wrapper {
-    // background-color: #828282;
     background-color: $dark-background-color;
     padding-top: 0;
 
     ul {
-      // display: table;
-      // width: 100%;
       text-align: center;
-      // list-style: none;
       margin: 0;
       padding: 0;
       line-height: 1.2rem;
@@ -30,13 +23,8 @@
       font-style: italic;
 
       li {
-        // display: table-cell;
         display: inline-block;
         padding: 0 0.5rem;
-
-        // &:first-of-type {
-        //   font-style: italic;
-        // }
 
         .page-link {
           color: inherit;
@@ -64,7 +52,6 @@
   margin-bottom: 0;
   float: left;
   color: $background-color;
-  // &,
   &:visited,
   &:hover {
     color: $background-color;
@@ -96,7 +83,6 @@
   @include media-query($on-laptop){
     flex-direction: column;
     height: auto;
-    // align-items: flex-start;
   }
 }
 .header-logo {
@@ -106,7 +92,6 @@
   margin: 0 auto;
 
   @include media-query($last-stop){
-    // max-width: 28rem;
     width: 100%;
   }
 }
@@ -124,7 +109,6 @@
   }
 
   @include media-query($last-stop){
-    // max-width: 28rem;
     width: 75%;
   }
 
@@ -165,25 +149,18 @@
 }
 
 .site-nav {
-  // float: right;
-  // line-height: 56px;
   text-align: center;
   padding-bottom: 15px;
   .menu-icon {
     display: none;
   }
   .page-link {
-    // color: $text-color;
     color: $background-color;
     line-height: $base-line-height;
     font-size: 1.3rem;
 
     @include media-query($on-palm) {
-      // color: $brand-color;
       font-size: 1rem;
-      // &:visited, &:hover{
-      //   color: $brand-color;
-      // }
     }
 
     // Gaps between nav items, but not on the first one
@@ -192,58 +169,12 @@
     }
   }
 
-  // @include media-query($on-laptop) {
-  //   // float: inherit;
-  //   line-height: 56px;
-  //   margin: auto;
-  //   text-align: center;
-  // };
-  // @include media-query($on-palm) {
-  //   position: absolute;
-  //   top: 9px;
-  //   right: 15px;
-  //   background-color: $background-color;
-  //   border: 1px solid $grey-color-light;
-  //   border-radius: 5px;
-  //   text-align: right;
-  //   .menu-icon {
-  //     display: block;
-  //     float: right;
-  //     width: 36px;
-  //     height: 26px;
-  //     line-height: 0;
-  //     padding-top: 10px;
-  //     text-align: center;
-  //     > svg {
-  //       width: 18px;
-  //       height: 15px;
-  //       path {
-  //         fill: $grey-color-dark;
-  //       }
-  //     }
-  //   }
-  //   .trigger {
-  //     clear: both;
-  //     display: none;
-  //   }
-  //   &:hover .trigger {
-  //     display: block;
-  //     padding-bottom: 5px;
-  //   }
-  //   .page-link {
-  //     display: block;
-  //     padding: 5px 10px;
-  //   }
-  // }
 }
 
 /**
  * Site footer
  */
 .site-footer {
-  // border-top: 3px solid $grey-color-light;
-  // border-bottom: 1px solid $grey-color-dark;
-  // padding: $spacing-unit 0;
   background-color: $grey-color-lightish;
 
   .wrapper {
@@ -256,9 +187,7 @@
   }
 }
 .footer-footing {
-  // color: $grey-color;
   color: $background-color;
-  // margin-bottom: $spacing-unit / 2;
   text-align: center;
 }
 .contact-list,
@@ -268,7 +197,6 @@
 }
 .footer-col-wrapper {
   font-size: 15px;
-  // color: $grey-color;
   color: $background-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
@@ -286,17 +214,14 @@
 .footer-col-1 {
   width: -webkit-calc(33% - (#{$spacing-unit} / 2));
   width: calc(33% - (#{$spacing-unit} / 2));
-  // width: grid-calc(1,3);
 }
 .footer-col-2 {
   width: -webkit-calc(33% - (#{$spacing-unit} / 2));
   width: calc(33.3333% - (#{$spacing-unit} / 2));
-  // width: grid-calc(1,3);
 }
 .footer-col-3 {
   width: -webkit-calc(33% - (#{$spacing-unit} / 2));
   width: calc(33% - (#{$spacing-unit} / 2));
-  // width: grid-calc(1,3);
 }
 @include media-query($on-palm) {
   .footer-col {
@@ -310,7 +235,6 @@
  * Page content
  */
 .page-content {
-  // padding: $spacing-unit 0 $spacing-unit/2;
   background-color: $grey-color-light;
 
   .wrapper {
@@ -344,14 +268,12 @@
 .post-header {
   color: $light-font-color;
   margin-bottom: $spacing-unit;
-  // padding-top: $spacing-unit;
   padding-top: 0;
 }
 .post-title {
   font-size: 42px;
   background-color: $brand-orange;
   padding: 1rem 0;
-  // letter-spacing: -1px;
   line-height: 1;
   text-align: center;
   font-weight: 400;
@@ -428,13 +350,11 @@
 .mere-col-half {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width: calc(50% - (#{$spacing-unit} / 2));
-  // width: grid-calc(1,2);
 }
 @include media-query($on-laptop) {
   .mere-col-half {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width: calc(100% - (#{$spacing-unit} / 2));
-    // width: grid-calc(1,2);
   }
 }
 @include media-query($on-palm) {
@@ -453,7 +373,6 @@
   text-align: center;
 }
 h2.not-orange-header {
-  //Makes gallery page less orange
   background-color: transparent;
 }
 #map {
@@ -508,7 +427,6 @@ h2.not-orange-header {
     float: left;
   }
   &.standalone-right {
-    padding-right: 15px;
     float: right;
   }
 
